@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Personal health data
+data/raw/
+data/interim/
+data/processed/
+data/private/
+private/
+
+# Personal notebooks and outputs
+notebooks/private/
+outputs/
+reports/personal/
+*.parquet
+*.sqlite
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
